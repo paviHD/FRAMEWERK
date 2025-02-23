@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulefilms - Bubatzbuben</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/91917cc46d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+            <img src="images/logo.png" class="logo" alt="Logo">
+            <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fas fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+            <nav>
+                <div class="header-text">
+                    <p>Video/Fotograf</p>
+                    <h1>Hi, wir sind <span>Paul</span> und&nbsp;<span>Linus</span> <br> aus Würzburg</h1>
+                </div>
+        </div>
+
+     </div>
+     <!--------------about-------------->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/edit LR PG shoot1_22.webp" alt="" class="float-left-margin">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Us</h1>
+                    <p>Zwei leidenschaftliche Video- und Fotografen, die ihre kreative Vision hinter der Kamera ausleben. 
+                        Was als Hobby begann, ist längst zu unserer größten Leidenschaft geworden. Wir lieben es, Momente einzufangen,
+                         Geschichten zu erzählen und Emotionen durch Bilder und Filme zum Leben zu erwecken. Unser Ziel? 
+                         Aus unserer Leidenschaft einen Beruf zu machen und immer neue, inspirierende Projekte zu realisieren. 
+                        Begleitet uns auf unserem Weg. Wir freuen uns darauf, eure Geschichten in Bildern festzuhalten!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Equipment</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Foto</span><br>Porträts; Events; Produktfotografie; Partyfotograf</li>
+                                <li><span>Video</span><br>Cinematische Eventvideos; Social-Media-Clips; BubatzBuben Style</li>
+                                <li><span>Editing</span><br>Cut; Colorgrade; SoundDesign; Fotobearbeitung </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Lehrgang</span><br>Kloster Banz MedienSeminar 2024</li>
+                                <li><span>PartyGig</span><br>Pokalfete Partyfotos und Videos (Siehe Portfolio)</li>
+                                <li><span>Private Übung</span><br>(Siehe Portfolio)</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Kameras</span><br>Sony A7III; Sony Vx1000; Sony TRV-900; DJI osmo action 4; GoPro hero 9</li>
+                                <li><span>Optiken</span><br>A7III: 28-70mm F2.8; Vx1000/TRV-900: 0.25x und 0.43x Fisheye</li>
+                                <li><span>Sonstiges</span><br>Stative; Kleine LED Lampe; Kamera Blitz; Smalllrig Magicarm</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--------------------services------------------>
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-camera"></i>
+                    <h2>Fotografie</h2>
+                    <p>Egal ob Porträts, Events oder Produktfotografie
+                         wir fangen die perfekten Momente mit kreativem 
+                         Blick und professionellem Feingefühl ein.</p>
+                         <a href="#portfolio">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Videoproduktion</h2>
+                    <p>Von Imagefilmen über Eventvideos bis hin zu Social-Media-Clips 
+                         wir erzählen eure Geschichten mit hochwertiger
+                          Cinematografie und durchdachtem Schnitt.</p>
+                         <a href="#portfolio">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-scissors"></i>
+                    <h2>Postproduktion & Editing</h2>
+                    <p>Ein gutes Bild oder Video entsteht nicht nur bei der Aufnahme.
+                         Mit professionellem Color Grading,
+                         Schnitt und Effekten verleihen wir euren Aufnahmen den letzten Feinschliff.</p>
+                         <a href="#portfolio">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!---------------------portfolio-------------->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> Our Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/D722905 (2).webp" >
+                    <div class="layer">
+                        <h3>Social Media Clip</h3>
+                        <p>Kurzvideo im Bubatzbuben Style für die alljährliche Partyveranstaltung "Pokalfete".</p>
+                        <a href="https://www.instagram.com/p/DBWW9c3hOxj/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/edit LR PG shoot1_38.webp" >
+                    <div class="layer">
+                        <h3>Cinematisches kurzvideo</h3>
+                        <p>Kleines Projekt im Rahmen des Schulfachs "Film und Medien", rein mit der DJI Osmo action 4 gefilmt.</p>
+                        <a href="https://www.tiktok.com/@bubatzbubben/video/7472010321079668001"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/DSC02419.webp" >
+                    <div class="layer">
+                        <h3>PartyFotos</h3>
+                        <p>Fotos mitten im geschehen einer Privaten Geburtstagsfeier.</p>
+                        <a href="https://www.instagram.com/p/DECshuRsmqe/?img_index=1"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.instagram.com/bubatzbubben/" class="btn">See more</a>
+        </div>
+     </div>
+        <!---------------------contact-------------->
+        <div id="contact"> 
+           <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> bubatzbubben@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +49 176 59441180</p>
+                    <div class="social-icons">
+                       <a href="https://www.instagram.com/bubatzbubben/"><i class="fa-brands fa-instagram"></i></a> 
+                       <a href="https://www.tiktok.com/@bubatzbubben"><i class="fa-brands fa-tiktok"></i></a>
+                       <a href="https://www.youtube.com/@BubatzBubben"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <h1>Impressum</h1>
+                    <p>Paul Groß</p>
+                    <p>Parsevalstr 8a</p>
+                    <p>97074 Würzburg</p>
+                </div>
+            </div>
+           </div> 
+           <div class="copyright">
+            <p>Copyright © Paulefilms. Made with <i class="fa-solid fa-heart"></i> by Paul </p>
+           </div>
+        </div>
+
+
+      
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+     </script>
+
+     <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+     </script>
+</body>
+</html>
