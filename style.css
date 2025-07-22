@@ -328,6 +328,17 @@ nav .fas{
     #header {
         background-image: url(images/handy\ background.webp); 
     }
+    nav ul{
+        position: fixed;
+        background: #ff004f;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top:50px ;
+        z-index: 2;
+        transition: right 0.5s;
+    }
     .header-text {
         margin-top: 100%;
         font-size: 16px;
@@ -342,22 +353,12 @@ nav .fas{
     nav ul {
         margin-top: 10px;        /* Zusätzlicher Abstand falls nötig */
     }    
-    }
+    
     nav .fas {
         display: block;
         font-size: 25px;
     }
-    nav ul{
-        position: fixed;
-        background: #ff004f;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top:50px ;
-        z-index: 2;
-        transition: right 0.5s;
-    }
+    
     .fa-bars{
         position: absolute;
         top: 25px;
