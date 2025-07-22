@@ -338,6 +338,7 @@ nav .fas{
     .logo {
         height: 40px !important; /* Logo kleiner machen */
         margin-bottom: 30px;     /* Abstand zum Menü/Reiter */
+        margin-left: 20;
     }
     nav ul {
         margin-top: 10px;        /* Zusätzlicher Abstand falls nötig */
