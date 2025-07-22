@@ -36,6 +36,7 @@ nav {
    
     width: 140px;
     margin-bottom: 15px;
+    margin-left: 30;
 }
 nav ul li{
     display: inline-block;
